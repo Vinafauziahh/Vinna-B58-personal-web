@@ -2,25 +2,81 @@
 <html>
     <head>
         <title>Personal web</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="nav.css" />
+        <link rel="stylesheet" href="home.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div style="margin:auto; border-width: 2px; border-color: black; border-style: solid; width: 300px; padding: 15px;box-shadow: 5px 5px 10px 1px black; ">  
-            <img src="C:\Users\Hp\Pictures\5d44bfa6-55cf-4b48-80b2-d02f57ce20b6.jfif" style="width: 100%; height: 200px; object-fit: cover; display:block; margin:auto; border-radius: 10px; 
+        <nav>
+            <ul>
+              <li>
+                <img src="logo.png" />
+              </li>
+              <li>
+                <a href="index.html"> Home </a>
+              </li>
+              <li>
+                <a href="blog.html"> Blog </a>
+              </li>
+              <li style="display: flex; justify-content: flex-end; width: 80%">
+                <a href="contact.html" class="btn-orange">Contact Me</a>
+              </li>
+            </ul>
+        </nav>
 
-            " 
-            />
+        <div class="container">
+        
+         <div 
+           class="card-container">
+
+            <img
+              src="C:\Users\Hp\Pictures\5d44bfa6-55cf-4b48-80b2-d02f57ce20b6.jfif" 
+              class="card-img" />
+
             <h1>Halo, Selamat Datang</h1>
             <p>Saya Vina Fauziah lulusan SMAN 110 JAKARTA jurusan IPS angkatan 2024. Saat ini saya sedang mengikuti kelas fullstack developer untuk mengembangkan keterampilan saya di bidang teknologi.</p>
-            <table border="1px" style="border:-collapse; width: 100%;">
+            <table border="1px" class="card-table">
                 <tr>
                     <th>Experience</th>
                     <th>Year</th>
                 </tr>
                 <tr>
-                    <td>Developer Website</td>
+                    <td>Developep Persoal Website</td>
                     <td>2024</td>
                 </tr>
             </table>
         </div>
+
+        <div class="info-container">
+          <h1>What i do</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita praesentium dignissimos consequatur accusantium voluptate? Laboriosam dolorum praesentium blanditiis vel ea provident, dolore quibusdam molestias, ut cupiditate atque! Nam, ipsum praesentium.
+          </p>
+
+          <div class="info-stack-container">
+            <div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"  style="width: 50px" />
+              <h1>JavaScrip</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro exercitationem voluptatum dolore quae enim aliquid blanditiis molestiae, iusto voluptates quam ullam hic ipsum necessitatibus. Minus earum laboriosam asperiores beatae unde!</p>
+            </div>
+            <div>
+              <img src="https://i.pinimg.com/736x/6e/92/2b/6e922bb16fe28d1d1ce23f693f1e371f.jpg" style="width: 50px" />        
+              <h1>Github</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro exercitationem voluptatum dolore quae enim aliquid blanditiis molestiae, iusto voluptates quam ullam hic ipsum necessitatibus. Minus earum laboriosam asperiores beatae unde!</p>
+            </div>
+            <div>
+              <img src="https://logo.clearbit.com/vercel.com" style="width: 50px" />
+              <h1>Deployment</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro exercitationem voluptatum dolore quae enim aliquid blanditiis molestiae, iusto voluptates quam ullam hic ipsum necessitatibus. Minus earum laboriosam asperiores beatae unde!</p>
+            </div>
+          </div>
+
+          <h1>Found me on</h1>
+          <img src="https://tse1.mm.bing.net/th?id=OIP.Mwvs0Xhr09eVg5CrmP3-9QHaH4&pid=Api&P=0&h=180" style="width: 50px" />
+        </div>
+      </div>
+
+      <script src=""assets/js/nav.js></script>
     </body>
 </html>
