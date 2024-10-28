@@ -40,7 +40,7 @@ function getAllTestimonials() {
         </div>`
   })
 
-  document.getElementById("testimonials").innerHTML = testimonialHTML.join("") 
+  document.getElementById("testimonials").innerHTML = TestimonialHTML.join("") 
 }
 
 function getAllTestimonialByStar(star) {
@@ -57,7 +57,7 @@ const TestimonialHTML = filteredtestimonials.map((testimonial) => {
         </div>`
 })
 
-     document.getElementById("testimonials").innerHTML = testimonialHTML.join("") 
+     document.getElementById("testimonials").innerHTML = TestimonialHTML.join("") 
 }
 
 getAllTestimonials()
